@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/**
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
+ * Licensed under MIT Open Source
+ */
+
+.voyager .side-menu .navbar-header {
+    background: #fff;
+}
+
+.app-container .content-container .side-menu .navbar-header {
+    width: 100%;
+    border-bottom: 3px solid #e84118;
+}
+
+.voyager .navbar.navbar-default .navbar-header .navbar-brand, .voyager .navbar .navbar-header .navbar-brand {
+    color: #e84118;
+}
+
+.app-container .content-container .navbar-top, .app-container.expanded .content-container .navbar-top {
+    background: #fff;
+    border-bottom: 4px solid #e84118;
+}
+
+.voyager .navbar .navbar-nav > li:hover > a,
+.voyager .navbar.navbar-default .navbar-nav > li:hover > a {
+    color: #e84118;
+}
+
+.voyager .navbar .navbar-nav > li.open > a,
+.voyager .navbar.navbar-default .navbar-nav > li.open > a {
+    background-color: transparent;
+    color: #e84118;
+}
+
+.voyager .side-menu .navbar li.active > a {
+    border-right: 4px solid #e84118;
+    background-color: #FFF;
+    color: #e84118;
+}
+.voyager .side-menu .navbar li.dropdown .panel-body {
+    padding: 0px 0px 0px 10px;
+}
+.voyager .breadcrumb a {
+    color: #e84118;
+}
